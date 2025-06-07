@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♻️ REMWaste Skip Selector – Frontend Challenge
 
-## Getting Started
+A complete redesign of the “Choose Your Skip Size” page from [wewantwaste.co.uk](https://wewantwaste.co.uk/), focused on delivering a **modern**, **accessible**, and **responsive** user experience — powered by **live data** and built with a clean, scalable architecture.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo & Repository
+
+- **🔗 Live App:** [https://your-live-link.com](https://your-live-link.com)  
+- **📁 GitHub Repo:** [https://github.com/beratperson/skip-selector](https://github.com/beratperson/skip-selector)
+
+---
+
+## 📌 Project Highlights
+
+✅ **Modern Tech Stack**  
+✅ **Mobile-First & Responsive Design**  
+✅ **Dynamic Data (No hardcoding)**  
+✅ **Production-Ready Clean Architecture**  
+✅ **Component-Based Design & Type Safety**
+
+---
+
+## 🧠 My Approach
+
+### 🛠️ Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Data:** Live API consumption via `fetch`
+
+### ♻️ Live Skip Data
+
+All skip size data and pricing is dynamically fetched from the official API:
+
+GET https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
+
+
+No static or hardcoded business data is used.
+
+### 🎨 UI/UX Strategy
+
+- Focus on **clarity**, **readability**, and **modern aesthetics**
+- Fully **mobile-first design** with tailored layout changes
+- High **accessibility** standards (semantic HTML, contrast, focus states)
+- Visually **distinct from the original** with a fresh, user-friendly approach
+
+---
+
+## 🧩 Project Structure
+
+├── components/ // Reusable UI building blocks
+├── app/ // Next.js app pages & routing
+├── hooks/ // Custom React hooks (data fetching, selection)
+├── types/ // Centralized TypeScript interfaces
+├── utils/ // Helper functions (e.g., price formatting)
+└── styles/ // Tailwind config and global styles
+
+
+---
+
+## 📦 Installation & Usage
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Visit in browser
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+📱 Responsiveness
+This application is fully responsive and tested on:
 
-To learn more about Next.js, take a look at the following resources:
+✅ Desktop browsers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Tablets
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Mobile devices (iOS & Android)
 
-## Deploy on Vercel
+The UI gracefully adapts to different screen sizes while preserving functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📌 Notes
+⚙️ All business data is dynamically retrieved from the API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧼 Clean, modular codebase – ready for further production integration
+
+💡 Fully functional selection logic and price summary with VAT & delivery
+
+🔄 Easily extensible for future features like user login, checkout, etc.
+
+🙌 Thanks for Reviewing!
