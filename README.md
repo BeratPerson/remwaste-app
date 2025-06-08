@@ -49,18 +49,7 @@ No static or hardcoded business data is used.
 
 ---
 
-## 🧩 Project Structure
-
-├── components/                    // Reusable UI building blocks
-├── app/                          // Next.js app pages & routing
-├── hooks/                        // Custom React hooks
-├── types/                        // TypeScript interfaces
-├── utils/                        // Helper functions
-├── styles/                       // Global styles and Tailwind config
-├── services/                     // API services and external integrations
-├── config/                       // Configuration files
-├── assets/                       // Static assets (images, fonts)
-└── store/                        // State management
+<pre> ```bash 📁 Project Structure . ├── components/ // Reusable UI building blocks ├── app/ // Next.js app pages & routing ├── hooks/ // Custom React hooks ├── types/ // TypeScript interfaces ├── utils/ // Helper functions ├── styles/ // Global styles and Tailwind config ├── services/ // API services and external integrations ├── config/ // Configuration files ├── assets/ // Static assets (images, fonts) └── store/ // State management ``` </pre>
 
 
 ---
