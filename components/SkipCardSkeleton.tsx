@@ -1,3 +1,4 @@
+
 export const SkipCardSkeleton = () => {
   return (
     <div className="w-full border-2 border-gray-200 dark:border-gray-800 rounded-2xl p-6 shadow-md bg-white/80 dark:bg-gray-900/70 animate-pulse">
