@@ -6,8 +6,8 @@ A complete redesign of the “Choose Your Skip Size” page from [wewantwaste.co
 
 ## 🚀 Live Demo & Repository
 
-- **🔗 Live App:** [https://your-live-link.com](https://your-live-link.com)  
-- **📁 GitHub Repo:** [https://github.com/beratperson/skip-selector](https://github.com/beratperson/skip-selector)
+- **🔗 Live App:** [https://remwaste-app.vercel.app](https://remwaste-app.vercel.app/)  
+- **📁 GitHub Repo:** [https://github.com/beratperson/remwaste-app](https://github.com/beratperson/remwaste-app)
 
 ---
 
@@ -28,6 +28,7 @@ A complete redesign of the “Choose Your Skip Size” page from [wewantwaste.co
 - **Framework:** Next.js 15 (App Router)
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
+- **State Managment:** Redux
 - **Data:** Live API consumption via `fetch`
 
 ### ♻️ Live Skip Data
@@ -50,12 +51,16 @@ No static or hardcoded business data is used.
 
 ## 🧩 Project Structure
 
-├── components/ // Reusable UI building blocks
-├── app/ // Next.js app pages & routing
-├── hooks/ // Custom React hooks (data fetching, selection)
-├── types/ // Centralized TypeScript interfaces
-├── utils/ // Helper functions (e.g., price formatting)
-└── styles/ // Tailwind config and global styles
+├── components/                    // Reusable UI building blocks
+├── app/                          // Next.js app pages & routing
+├── hooks/                        // Custom React hooks
+├── types/                        // TypeScript interfaces
+├── utils/                        // Helper functions
+├── styles/                       // Global styles and Tailwind config
+├── services/                     // API services and external integrations
+├── config/                       // Configuration files
+├── assets/                       // Static assets (images, fonts)
+└── store/                        // State management
 
 
 ---
