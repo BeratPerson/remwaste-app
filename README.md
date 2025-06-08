@@ -47,11 +47,12 @@ No static or hardcoded business data is used.
 - High **accessibility** standards (semantic HTML, contrast, focus states)
 - Visually **distinct from the original** with a fresh, user-friendly approach
 
----
-📁 Project Structure
+## 📁 Project Structure
+
+```
 .
-├── components/   // Reusable UI building blocks
 ├── app/          // Next.js app pages & routing
+├── components/   // Reusable UI building blocks
 ├── hooks/        // Custom React hooks
 ├── types/        // TypeScript interfaces
 ├── utils/        // Helper functions
@@ -60,8 +61,8 @@ No static or hardcoded business data is used.
 ├── config/       // Configuration files
 ├── assets/       // Static assets (images, fonts)
 └── store/        // State management
+```
 
----
 
 ## 📦 Installation & Usage
 
